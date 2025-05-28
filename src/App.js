@@ -8,7 +8,12 @@ function App() {
       <header className="bg-black bg-opacity-90 shadow-md sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
           <div className="flex items-center space-x-3">
-            <img src="/t1logo.jpg" alt="Tier 1 Las Vegas" className="h-10" />
+            <img
+              src={`${process.env.PUBLIC_URL}/t1logo.jpg`}
+              alt="Tier 1 Las Vegas Logo"
+              className="h-10"
+            />
+
             <h1 className="text-xl font-bold tracking-wide text-white uppercase">
               Tier 1 Las Vegas
             </h1>
